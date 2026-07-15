@@ -28,6 +28,6 @@ cpus = 1
 memory_mb = 2048
 storage_mb = 10240
 gpus = 0
-# The task only ever reads a local file; it never needs the network.
-# (Not one of the graded defects, but tightening this is good practice.)
-network_mode = "no-network"
+# The task only ever reads a local file, so it never needs the network.
+allow_internet = false
+mcp_servers = []
