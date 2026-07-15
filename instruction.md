@@ -20,3 +20,5 @@ Example output shape (values will differ based on the log contents):
 1. `/app/report.json` exists and is valid JSON.
 2. It contains the fields `total_requests`, `unique_ips`, and `top_path`, with the types described above.
 3. All three values are computed correctly from `/app/access.log`.
+
+You have 120 seconds to complete this task. Do not cheat by using online solutions or hints specific to this task.
